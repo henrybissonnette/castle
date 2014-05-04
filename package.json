@@ -1,0 +1,29 @@
+{
+  "name": "castle",
+  "author": "Henry Bissonnette",
+  "version": "0.1.0",
+  "main": "build/castle.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.6.3",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-coffee": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrybissonnette/castle.git"
+  },
+  "dependencies": {
+    "redis-url": "~0.2.0",
+    "express": "~4.1.1",
+    "logfmt": "~1.1.2"
+  },
+  "engines": {
+      "node": "0.10.x"
+    }
+  }
+}
